@@ -41,8 +41,8 @@ function ctl_render_options_page() {
       <?php settings_fields( 'ctl_option_group' ); ?>
       <?php do_settings_sections( 'ctl_options_page' ); ?>
       <div id="buttons">
-        <button id="add">+</button>
-        <button id="minus">-</button>
+        <button id="add">Add Task</button>
+        <button id="minus">Remove Task</button>
       </div>
       <p class="submit">
         <input type="submit" name="submit" id="submit" class="button button-primary" value="<?php _e( 'Save Changes' ); ?>">
